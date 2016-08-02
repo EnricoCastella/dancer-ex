@@ -7,6 +7,6 @@ use Dancer2;
 #use inventory;
 use default;
 
-#inventory->to_app;
+inventory->to_app;
 default->to_app;
 start;
